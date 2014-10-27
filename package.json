@@ -1,0 +1,36 @@
+{
+  "name": "NodeJS-multiple-upload-sample",
+  "version": "0.0.0",
+  "description": "NodeJS-multiple-upload-sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/winwu/NodeJS-multiple-upload-sample.git"
+  },
+  "author": "winwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winwu/NodeJS-multiple-upload-sample/issues"
+  },
+  "homepage": "https://github.com/winwu/NodeJS-multiple-upload-sample",
+  "dependencies": {
+    "co-body": "^1.0.0",
+    "co-busboy": "^1.2.0",
+    "co-views": "^0.2.0",
+    "jade": "^1.7.0",
+    "koa": "^0.13.0",
+    "koa-body-parsers": "^1.0.0",
+    "koa-route": "^2.2.0",
+    "koa-router": "^3.5.0",
+    "koa-static": "^1.4.7",
+    "promisify-stream": "^0.1.0",
+    "uid2": "0.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  }
+}
